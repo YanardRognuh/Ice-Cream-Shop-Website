@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ardian's Ice Cream Shop</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-..."
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="Gambar/Logo.png" alt="logo" />
+      </div>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <header>
+      <h1>Welcome to Ardian's Ice Cream Delight!</h1>
+      <p>
+        Indulge in the finest selection of creamy, dreamy ice creams. Frothem
+        classic vanilla to exotic flavors, every scoop is a taste of happiness.
+        Join us and savor the sweetness of life with every bite!
+      </p>
+    </header>
+
+    <section class="products">
+      <div class="products-heading">
+        <p>Our Creations</p>
+        <h1>Deliciously Diverse</h1>
+        <p>
+          Indulge in our exquisite range of ice cream creations, each crafted to
+          perfection. Explore our diverse flavors and find your new favorite
+          treat!
+        </p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <img src="Gambar/vanilla.avif" alt="" />
+          <h4>Classic Vanilla</h4>
+          <p>The timeless favorite, made with the finest vanilla beans.</p>
+          <button class="primary">Order Now</button>
+        </div>
+        <div class="card">
+          <img src="Gambar/chocolatte.avif" alt="" />
+          <h4>Choco Delight</h4>
+          <p>A rich and creamy chocolate experience like no other.</p>
+          <button class="primary">Order Now</button>
+        </div>
+        <div class="card">
+          <img src="Gambar/mango.avif" alt="" />
+          <h4>Mango Tango</h4>
+          <p>A tropical burst of fresh mango in every bite.</p>
+          <button class="primary">Order Now</button>
+        </div>
+        <div class="card">
+          <img src="Gambar/strawberry.avif" alt="" />
+          <h4>Strawberry Bliss</h4>
+          <p>Sweet and tangy strawberries mixed to perfection.</p>
+          <button class="primary">Order Now</button>
+        </div>
+      </div>
+    </section>
+    <section class="faq">
+      <h1>Frequently Asked Questions</h1>
+      <div class="questions">
+        <div class="question">
+          <button class="faq-question">
+            <p>What are the ingredients in your ice cream?</p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              We use only the finest, natural ingredients in our ice creams,
+              including fresh fruits, premium dairy, and high-quality flavors.
+            </p>
+          </div>
+        </div>
+        <div class="question">
+          <button class="faq-question">
+            <p>Do you offer dairy-free options?</p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Yes, we offer a variety of dairy-free and vegan-friendly ice cream
+              options to cater to different dietary preferences.
+            </p>
+          </div>
+        </div>
+        <div class="question">
+          <button class="faq-question">
+            <p>Can I order custom flavors for events?</p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Absolutely! We provide custom flavor options for special events
+              and occasions. Contact us for more details.
+            </p>
+          </div>
+        </div>
+        <div class="question">
+          <button class="faq-question">
+            <p>Where can I find your ice cream?</p>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Our ice cream is available at our shop locations and selected
+              retailers. You can also order online through our website.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials">
+      <div class="testimonials-heading">
+        <p>Our Testimonials</p>
+        <h1>What Our Customers Say</h1>
+        <p>
+          We're proud to have made a significant impact on our customers' lives
+          by offering exceptional ice cream experiences. Here are some
+          testimonials from satisfied customers who have made a positive impact
+          on our community.
+        </p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>
+            "I love the variety and the quality. Every visit is a delightful
+            experience. I can't wait to try another one!"
+          </p>
+          <h3>- John Doe</h3>
+        </div>
+        <div class="card">
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>
+            "Absolutely the best ice cream I've ever had! The flavors are so
+            unique and delicious.I love the taste of this ice cream. It's so
+            smooth and creamy. I can't wait to try another one!"
+          </p>
+          <h3>- Jane Smith</h3>
+        </div>
+        <div class="card">
+          <div class="stars">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>
+            "The customer service is excellent, and the ice cream is even
+            better!"
+          </p>
+          <h3>- Mark Johnson</h3>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="shop-info">
+        <div class="address">
+          <p>Address:</p>
+          <p>123 Ice Cream Lane, Sweet City, Dreamland</p>
+        </div>
+        <div class="contact">
+          <p>Contact Us:</p>
+          <p>Phone: (123) 456-7890</p>
+          <p>Email: info@ardiansicecream.com</p>
+        </div>
+        <div class="socials">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </footer>
+    <div class="copyright">
+      <p>© 2024 Ardian's Ice Cream Shop. All Rights Reserved.</p>
+    </div>
+
+    <script>
+      var acc = document.getElementsByClassName("faq-question");
+      var i;
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          this.parentElement.classList.toggle("active");
+        });
+      }
+    </script>
+    <script src="nav.js"></script>
+  </body>
+</html>
